@@ -1,0 +1,201 @@
+html, body {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    min-height: 120px;
+    width: 300px;
+}
+
+.modal-header {
+    padding-left: 50px;
+    width: 150px;
+    margin: 0;
+}
+
+.logo-icon{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: auto;
+}
+
+/*=================================================== Thin Button Start =============================================*/
+
+div[class*=box] {          
+    display: flex;  
+    justify-content: center;  
+    align-items: center;}
+  
+    .box-1 { 
+        background-color: rgb(46, 46, 46); 
+        height: 60px;
+      }
+
+
+  .box-2 { 
+      background-color: rgb(46, 46, 46); 
+      height: 40px;
+    }
+  .box-3 { 
+        background-color: rgb(46, 46, 46); 
+        height: 40px;
+      }
+  
+  .thin {    
+    line-height: 50px;    
+    height: 50px;    
+    text-align: center;
+    align-items: center;   
+    width: 300px;    
+    cursor: pointer;}
+    .thin2 {    
+        line-height: 30px;    
+        height: 30px;    
+        text-align: center;
+        align-items: center;   
+        width: 300px;    
+        cursor: pointer;}
+        .thin3 {    
+            line-height: 30px;    
+            height: 30px;    
+            text-align: center;
+            align-items: center;   
+            width: 300px;    
+            cursor: pointer;}
+  
+  /* ========================BUTTON ONE========================*/
+  .thin-one {    
+    color: #FFF;    
+    transition: all 0.3s;    
+    position: relative;}
+  
+  .thin-one span {    
+    transition: all 0.3s;}
+  
+  .thin-one::before {    
+    content: '';    
+    position: absolute;    
+    bottom: 0;    
+    left: 0;    
+    width: 100%;    
+    height: 100%;    
+    z-index: 1;    
+    opacity: 0;    
+    transition: all 0.3s;    
+    border-top-width: 1px;    
+    border-bottom-width: 1px;    
+    border-top-style: solid;    
+    border-bottom-style: solid;    
+    border-top-color: rgba(255,255,255,0.5);    
+    border-bottom-color: rgba(255,255,255,0.5);    
+    transform: scale(0.1, 1);}
+  
+  .thin-one:hover span {    
+    letter-spacing: 2px;}
+  
+  .thin-one:hover::before {    
+    opacity: 1;     
+    transform: scale(1, 1); }
+  
+  .thin-one::after {    
+    content: '';    
+    position: absolute;    
+    bottom: 0;    
+    left: 0;    
+    width: 100%;    
+    height: 100%;    
+    z-index: 1;    
+    transition: all 0.3s;    
+    background-color: rgba(255,255,255,0.1);}
+  
+  .thin-one:hover::after {    
+    opacity: 0;     
+    transform: scale(0.1, 1);}
+  
+  /* ========================BUTTON TWO========================*/
+  
+  .thin-two {    
+    color: #FFF;    
+    transition: all 0.5s;    
+    position: relative; }
+  
+  .thin-two span {    
+    z-index: 2;     
+    display: block;    
+    position: absolute;    
+    width: 100%;    
+    height: 100%;   }
+    
+  .thin-two::before {    
+    content: '';    
+    position: absolute;    
+    top: 0;    
+    left: 0;    
+    width: 100%;    
+    height: 100%;    
+    z-index: 1;    
+    transition: all 0.5s;    
+    border: 1px solid rgba(255,255,255,0.2);    
+    background-color: rgba(255,255,255,0.1);}
+  
+  .thin-two::after {    
+    content: '';    
+    position: absolute;    
+    top: 0;    
+    left: 0;   
+    width: 100%;    
+    height: 100%;    
+    z-index: 1;    
+    transition: all 0.5s;    
+    border: 1px solid rgba(255,255,255,0.2);    
+    background-color: rgba(255,255,255,0.1);}
+    
+  .thin-two:hover::before {  
+    transform: rotate(-45deg); 
+    background-color: rgba(255,255,255,0);}
+  
+  .thin-two:hover::after {  
+    transform: rotate(45deg);  
+    background-color: rgba(255,255,255,0);}
+  
+  /* ======================== BUTTON THREE========================*/
+  .thin-three {    
+    color: #FFF;    
+    transition: all 0.5s;    
+    position: relative;}
+  
+  .thin-three::before {    
+    content: '';    
+    position: absolute;    
+    top: 0;    
+    left: 0;    
+    width: 100%;    
+    height: 100%;    
+    z-index: 1;    
+    background-color: rgba(255,255,255,0.1);    
+    transition: all 0.3s;}
+    
+  .thin-three:hover::before {    
+    opacity: 0 ;    
+    transform: scale(0.5,0.5);}
+  
+  .thin-three::after {    
+    content: '';    
+    position: absolute;    
+    top: 0;    
+    left: 0;    
+    width: 100%;    
+    height: 100%;    
+    z-index: 1;    
+    opacity: 0;    
+    transition: all 0.3s;    
+    border: 1px solid rgb(255, 255, 255);    
+    transform: scale(1.2,1.2);}
+    
+  .thin-three:hover::after {    
+    opacity: 1;    
+    transform: scale(1,1);}
+  
+    /*======================================= Thin Button Start ================================================== */
+    
